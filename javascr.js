@@ -40,7 +40,6 @@ document.getElementById('fetchProfile').addEventListener('click', async function
         }
 
     } catch (error) {
-        console.error("Error fetching data: ", error);
         alert("Failed to fetch profile or submissions. Please try again later.");
     }
 });
