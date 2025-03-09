@@ -62,6 +62,8 @@ function displayUnsolvedProblems(unsolvedproblems, solvedproblems) {
             problems.push(problem);
         }
     })
+    const countDiv = document.getElementById('count');
+    countDiv.innerHTML = '';
     const countdiv=document.createElement('div');
     countdiv.innerHTML = `
         <p><strong>Total No.of Unsolved Problems:</strong> ${problems.length}</p>
